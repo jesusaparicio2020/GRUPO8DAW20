@@ -1,2 +1,2 @@
 Alejandro: 
-He subido los archivos controller.php y config.php a la carpeta app, y index.php a la carpeta web, usando el comando git pull para recoger lo que ya habia en el GITHUB y luego un git push para subir estos archivos, tambien he hecho el commit ("commit de alejandro") antes de la subida de estos archivos.
+He subido los archivos controller.php y config.php a la carpeta app, y index.php a la carpeta web, usando el comando git pull para recoger lo que ya habia en el GITHUB y luego un git push para subir estos archivos, tambien he hecho el commit ("commit de alejandro") antes de la subida de estos archivos. Por ultimo he modificado el archivo config.php y he escrito los datos del usuario de base de datos de pablo.
