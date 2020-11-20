@@ -1,1 +1,6 @@
-aa
+Para desplegar este proyecto en una pagina web o en nuestro caso en el Cdmon, lo que debemos es comunicar GITHUB con Cdmon. Para ello comunicar ambas plataformas de forma segura lo haremos mediente una conexion ssh, esta conexion la haremos desde un cmd o un terminal. 
+Comenzaremos utilizando el comando " ssh pablocan@ssh.pablocanomartinez.com.mialias.net ". Siendo "pablocan" el nombre de usuario del protocolo para acceder de forma remota y "ssh.pablocanomartinez.com.mialias.net" la direccion. A continuacion nos pedira la contraseña para poder establecer la conexion, la debermos haber configurado previamente, y ya tendremos la conexion establecida, asi ya tenemos la comunicacion con el Cdmon nos queda cominicar ahora Cdmon con GIT.
+Con la conexion establecida nos dirijimos hacia el directorio /web en el creamos una carpeta "mkdir alimentos2020" y nos metemos en ella "cd alimentos2020", en ella inicializamos GIT.
+Aviso importante: Revisa que tengas habilitado en el panel de control el cliente GIT.
+Para ello utilizamos el comando " git init " y estblecemos la conexion con "git remote add conexion https://github.com/jesusaparicio2020/GRUPO8DAW20" para comprobar que la conexion se ha relizado correctamente " git remote -v ". Una vez comprobado que la conexion es correcta procederemos a traernos los datos a Cdmon con un pull " git pull conexion master ". 
+Puede que te de problemas al realizar el pull por el certificado SSL para ello lo puedes desactivar con el siguiente comando " git config --global http.sslVerify false ".
