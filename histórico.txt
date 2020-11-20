@@ -1,8 +1,17 @@
-Alejandro: 
-He subido los archivos controller.php y config.php a la carpeta app, y index.php a la carpeta web, usando el comando git pull para recoger lo que ya habia en el GITHUB y luego un git push para subir estos archivos, tambien he hecho el commit ("commit de alejandro") antes de la subida de estos archivos. Por ultimo he modificado el archivo config.php y he escrito los datos del usuario de base de datos de pablo.
-
 Jesús:
 Creo el repositorio en GITHUB llamado GRUPO8DAW20.
 Asocio a Pablo y Alejandro para que hicieran sus respectivas partes.
 Subo a través de la consola de GIT  la carpeta templates dentro de appy las carpetas de web (css, js e images) con los comandos git add, git push y git commit para dejar los comentarios en las modificaciones.
 Por último he creado el archivo valoraciones.txt para poder valorar personalmente cada uno la práctica.
+
+Pablo:
+He subido el archivo Model.php haciendo un pull para traerme en local los archivos subidos por Jesus para despues hacer el commit y el push.
+En el segundo apartado mediente una conexion ssh a Cdmon he creado una carpeta e inicializado GIT en ella para asi poder hacer un pull y traerme todos los archivos desde GITHUB.
+Finalmente he documentado de forma mas completa el apartado anterior en el archivo intalacion.txt.
+
+Alejandro: 
+He subido los archivos controller.php y config.php a la carpeta app, y index.php a la carpeta web, usando el comando git pull para recoger lo que ya habia en el GITHUB y luego un git push para subir estos archivos. 
+Tambien he hecho el commit ("commit de alejandro") antes de la subida de estos archivos. 
+Por ultimo he modificado el archivo config.php y he escrito los datos del usuario de base de datos de pablo.
+
+
